@@ -1,23 +1,16 @@
 import math
 
-<<<<<<< HEAD
-def get_area(a, b):
-    # ОШИБКА: формула для площади прямоугольного треугольника: (a * b) / 2
-    # Но здесь забыли делить на 2
-    return a * b  # ← Ошибка! Должно быть: return a * b / 2
-
-def get_hypotenuse(a, b):
-    return math.sqrt(math.pow(a, 3) + math.pow(b, 3))
-
-=======
 # Получить площадь прямоугольного треугольника
->>>>>>> 332d5f7 (решение конфликта)
 def get_area(a, b):
     return a * b
 
 # Рассчитать гипотенузу
 def get_hypotenuse(a, b):
     return math.sqrt(math.pow(a, 3) + math.pow(b, 3))
+
+# Получить площадь прямоугольного треугольника
+def get_area(a, b):
+    return a * b
 
 if __name__ == "__main__":
     print("Введите a:")
